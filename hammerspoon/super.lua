@@ -124,6 +124,8 @@ superDuperModeNavListener = eventtap.new({ eventTypes.keyDown }, function(event)
     j = 'down',
     k = 'up',
     l = 'right',
+    n = 'delete', -- I ADDED THIS
+    m = 'forwarddelete',
   }
 
   local keystroke = charactersToKeystrokes[event:getCharacters(true):lower()]
@@ -157,8 +159,8 @@ superDuperModeTabNavKeyListener = eventtap.new({ eventTypes.keyDown }, function(
 
   local charactersToKeystrokes = {
     u = { {'cmd'}, '1' },          -- go to first tab
-    i = { {'cmd', 'shift'}, '[' }, -- go to previous tab
-    o = { {'cmd', 'shift'}, ']' }, -- go to next tab
+    i = { {'ctrl', 'shift'}, 'tab' }, -- go to previous tab
+    o = { 'control', 'tab' }, -- go to next tab
     p = { {'cmd'}, '9' },          -- go to last tab
   }
   local keystroke = charactersToKeystrokes[event:getCharacters()]
