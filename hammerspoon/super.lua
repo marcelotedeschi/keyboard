@@ -98,6 +98,7 @@ superDuperModeModifierKeyListener = eventtap.new({ eventTypes.keyDown, eventType
   charactersToModifers['a'] = 'alt'
   charactersToModifers['f'] = 'cmd'
   charactersToModifers[' '] = 'shift'
+  charactersToModifers['v'] = 'shift'
 
   local modifier = charactersToModifers[event:getCharacters()]
   if modifier then
