@@ -6,8 +6,10 @@
 return {
   { 'a', 'Finder' },
   { 'c', 'Visual Studio Code' },
+  { 'd', 'Discord' },
   { 'g', 'Google Chrome' },
   { 'f', 'Franz' },
+  { 'h', 'Dash' },
   { 'n', 'Notes' },
   { 'p', 'Postico' },
   { 'r', 'Reminders' },
