@@ -6,7 +6,6 @@
 return {
   { 'a', 'Finder' },
   { 'c', 'Visual Studio Code' },
-  { 'd', 'Discord' },
   { 'g', 'Google Chrome' },
   { 'f', 'Franz' },
   { 'h', 'Dash' },
@@ -15,5 +14,6 @@ return {
   { 'r', 'Reminders' },
   { 's', 'Spotify' },
   { 't', 'iTerm' },
+  { 'x', 'Google Chrome Dev' },
   { 'y', 'Typora'},
 }
