@@ -56,5 +56,5 @@ fnHandler = function(event)
   lastMods = newMods
 end
 
--- fnKey = hs.eventtap.new({hs.eventtap.event.types.flagsChanged}, fnHandler)
--- fnKey:start()
+fnKey = hs.eventtap.new({hs.eventtap.event.types.flagsChanged}, fnHandler)
+fnKey:start()
