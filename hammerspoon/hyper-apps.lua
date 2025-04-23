@@ -5,9 +5,10 @@
 -- your preferred shortcuts.
 return {
   { 'a', 'Finder' },
-  { 'c', 'Visual Studio Code' },
+  { 'b', 'Notion' },
+  { 'c', 'Visual Studio Code - Insiders' },
   { 'g', 'Google Chrome' },
-  { 'f', 'Franz' },
+  { 'f', 'Arc' },
   { 'h', 'Dash' },
   { 'n', 'Notes' },
   { 'p', 'Postico' },
