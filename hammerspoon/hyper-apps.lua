@@ -6,7 +6,8 @@
 return {
   { 'a', 'Finder' },
   { 'b', 'Notion' },
-  { 'c', 'Visual Studio Code - Insiders' },
+  -- { 'c', 'Visual Studio Code - Insiders' },
+  { 'c', 'Windsurf' },
   { 'g', 'Google Chrome' },
   { 'f', 'Arc' },
   { 'h', 'Dash' },
@@ -14,7 +15,5 @@ return {
   { 'p', 'Postico' },
   { 'r', 'Reminders' },
   { 's', 'Spotify' },
-  { 't', 'iTerm' },
-  { 'x', 'Google Chrome Dev' },
-  { 'y', 'Typora'},
+  { 't', 'iTerm' }
 }
